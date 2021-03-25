@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "Sara Correia";
+}
+
+
+<div>
+    <p>Art site coming soon</p>
+</div>
+<div>
+    <img src="~/img/amy.png" />
+    <h3>Pencil portrait</h3>
+    <button id="orderButton">Order</button>
+</div>
+<div id="theForm">
+    <form method="post">
+        <label>Your Name:</label>
+        <br />
+        <input name="name" placeholder="Your Name" />
+        <br />
+        <label>Your Email:</label>
+        <br />
+        <input type="email" name="email" placeholder="Your email" />
+        <br />
+        <label>Drawing Style:</label>
+        <br />
+        <input list="drawingType" name="drawingType" onfocus="this.value=''" onchange="this.blur()" placeholder="Drawing Style" ;>
+        <datalist id="drawingType">
+            <option value="Pencil Portrait"/>
+            <option value="Illustration"/>
+            <option value="Other"/>
+        </datalist>
+        <br />
+        <label>Leave a brief description of what you have in mind:</label>
+        <br />
+        <textarea rows="4" name="message" placeholder="Your description"></textarea>
+        <br />
+        <input type="submit" value="Send" />
+    </form>
+</div>

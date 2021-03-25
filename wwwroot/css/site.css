@@ -1,0 +1,19 @@
+﻿body {
+    font-family: 'Tahoma';
+}
+
+#theForm {
+    background-color: #dbcfce;
+    color: #2e302f;
+}
+
+    #theForm input[type=submit] {
+        background-color: #b39694;
+        color: white;
+        font-weight: bold;
+        border-radius: 15px;
+    }
+
+menu li {
+    display: inline;
+}
